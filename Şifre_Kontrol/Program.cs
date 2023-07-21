@@ -10,7 +10,7 @@ namespace Şifre_Kontrol
     {
         static void Main(string[] args)
         {
-            int hak_sayisi = 3;
+            int hakSayisi = 3;
             while(true)
             {
                 Console.WriteLine("Kullanıcı adını giriniz:");
@@ -24,12 +24,12 @@ namespace Şifre_Kontrol
                 }
                 else
                 {
-                    if(hak_sayisi > 0)
+                    if(hakSayisi > 0)
                     {
-                        hak_sayisi--;
-                        Console.WriteLine("Kalan hak sayınız:" +  hak_sayisi);
+                        hakSayisi--;
+                        Console.WriteLine("Kalan hak sayınız:" +hakSayisi);
                     }  
-                    if(hak_sayisi == 0)
+                    if(hakSayisi == 0)
                     {
                         Console.WriteLine("Hak sayınız bitmiştir giriş yapamazsınız!!");
                         break;
