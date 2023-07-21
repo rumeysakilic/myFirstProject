@@ -12,8 +12,9 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World!!!!");
             Console.WriteLine("Rumeysa KILIÇ");
+            //Write ile Line farkı satır satır yazdırmasıdır.
             Console.Write("Cansu");
-            Console.Write("KILIÇ");                           //Write ile Line farkı satır satır yazdırmasıdır.
+            Console.Write("KILIÇ");                           
             Console.ReadLine();       
         }
     }
