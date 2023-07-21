@@ -11,13 +11,14 @@ namespace do_while_Ornek
         static void Main(string[] args)
         {
             //1'den 10'a kadar sayıları do while ile yazdır.
-            //1'den 100'e kadar sayıların toplamını do while ile yazdır
             /*int sayi = 1;
             do
             {
                Console.WriteLine(sayi);
                 sayi++; 
             } while (sayi<=10); */
+
+            //1'den 100'e kadar sayıların toplamını do while ile yazdır
             int sayi1 = 1;
             int toplam = 0;
             do
