@@ -16,7 +16,7 @@ namespace do_while_Ornek
             {
                Console.WriteLine(sayi);
                 sayi++; 
-            } while (sayi<=10); */
+            } while (sayi <= 10); */
 
             //1'den 100'e kadar sayıların toplamını do while ile yazdır
             int sayi1 = 1;
@@ -24,7 +24,6 @@ namespace do_while_Ornek
             do
             {
                 toplam += sayi1;
-                
                 sayi1++;
                 
             } while (sayi1 <= 100);
