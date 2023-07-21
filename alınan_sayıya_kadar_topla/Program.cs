@@ -18,15 +18,17 @@ namespace alınan_sayıya_kadar_topla
                 toplam = toplam + i;
             }
             Console.WriteLine(toplam);
+
             double ortalama = toplam/ sayi;
             Console.WriteLine(ortalama);
-            if(ortalama > 50)
+
+            if (ortalama <= 50)
             {
-                Console.WriteLine("Ortalama 50' den büyük");
+                Console.WriteLine("Ortalama 50'den küçük");
             }
             else
             {
-                Console.WriteLine("Ortalama 50'den küçük");
+                Console.WriteLine("Ortalama 50' den büyük");
             }
         }
     }
