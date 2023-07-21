@@ -15,17 +15,17 @@ namespace Beden_Kitle_İndeksi_Bulma
             int kilo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Boyunuzu Giriniz:");
             double boy = Convert.ToDouble(Console.ReadLine());
-            double beden_kitle_indeks = kilo / (boy * boy);
-            Console.WriteLine("Beden Kitle İndeksiniz:" + beden_kitle_indeks);
-            if(beden_kitle_indeks <= 18)
+            double bedenKitleIndeks = kilo / (boy * boy);
+            Console.WriteLine("Beden Kitle İndeksiniz:" + bedenKitleIndeks);
+            if(bedenKitleIndeks <= 18)
             {
                 Console.WriteLine("Zayıfsınız!!");
             }
-            else if(beden_kitle_indeks > 18 && beden_kitle_indeks <= 25)
+            else if(bedenKitleIndeks > 18 && bedenKitleIndeks <= 25)
             {
                 Console.WriteLine("Normal");
             }
-            else if(beden_kitle_indeks > 25)
+            else if(bedenKitleIndeks > 25)
             {
                 Console.WriteLine("Obezitesiniz!!");
             }
